@@ -3,11 +3,17 @@ public class Lista {
     private int largo;
 
     public void push(Nodo n){
-        Nodo auxiliar = this.primero;
-        while(!auxiliar.getSiguiente().equals(null)){
-            auxiliar = auxiliar.getSiguiente();
+        if(largo == 0){
+            this.primero = n;
         }
-        auxiliar.setSiguiente(n);
+        else {
+            Nodo auxiliar = this.primero;
+            //while (!auxiliar.getSiguiente().equals(null)) {
+            while (auxiliar.getSiguiente() != null) {
+                auxiliar = auxiliar.getSiguiente();
+            }
+            auxiliar.setSiguiente(n);
+        }
         largo++;
     }
 
@@ -46,4 +52,37 @@ public class Lista {
         auxiliar.setSiguiente(n);
         this.largo++;
     }
+
+    public int getCantidad() {
+        return largo;
+    }
+
+    public Nodo eliminar(int posicion) {
+        if (posicion <0 || posicion> this.largo){
+            return null;
+        }
+
+        if(posicion ==1 && this.largo ==1)
+        {
+            return this.pop();
+        }
+
+        int contador = 0;
+        Nodo puntero = this.primero;
+        while(contador< posicion-1){
+            contador++;
+            puntero = puntero.getSiguiente();
+        }
+        Nodo retorno = puntero;
+
+        puntero.setSiguiente(retorno.getSiguiente());
+        return retorno;
+    }
+
+
+    //consultar n elemento
+    //intercambiar posiciones
+    //orden ascandente
+    //orden descendente
+    //eliminar segmento
 }
