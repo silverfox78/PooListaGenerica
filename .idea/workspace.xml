@@ -2,10 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1bea34ed-7e83-4f6a-9075-a4455d954e03" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/ListaTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/classes/Lista.class" afterPath="$PROJECT_DIR$/out/production/classes/Lista.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/test/classes/ListaTest.class" afterPath="$PROJECT_DIR$/out/test/classes/ListaTest.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/gradle.xml" afterPath="$PROJECT_DIR$/.idea/gradle.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Lista.java" afterPath="$PROJECT_DIR$/src/main/java/Lista.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Nodo.java" afterPath="$PROJECT_DIR$/src/main/java/Nodo.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/ListaTest.java" afterPath="$PROJECT_DIR$/src/test/java/ListaTest.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -27,13 +29,11 @@
       <file leaf-file-name="Lista.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/Lista.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="348">
-              <caret line="86" column="23" lean-forward="false" selection-start-line="86" selection-start-column="23" selection-end-line="86" selection-end-column="23" />
+            <state relative-caret-position="-81">
+              <caret line="88" column="34" lean-forward="true" selection-start-line="88" selection-start-column="34" selection-end-line="88" selection-end-column="34" />
               <folding>
                 <element signature="method#pop#0;class#Lista#0" expanded="false" />
                 <element signature="method#inserta#0;class#Lista#0" expanded="false" />
-                <element signature="e#1366#1367#0" expanded="true" />
-                <element signature="e#1394#1395#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -42,8 +42,8 @@
       <file leaf-file-name="ListaTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/ListaTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="329">
-              <caret line="81" column="38" lean-forward="true" selection-start-line="81" selection-start-column="38" selection-end-line="81" selection-end-column="38" />
+            <state relative-caret-position="249">
+              <caret line="115" column="42" lean-forward="false" selection-start-line="115" selection-start-column="42" selection-end-line="115" selection-end-column="42" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="method#AnexaPrimerNodo#0;class#ListaTest#0" expanded="false" />
@@ -391,9 +391,10 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -436,7 +437,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -579,16 +579,12 @@
       <updated>1523112948774</updated>
       <workItem from="1523112971456" duration="2165000" />
       <workItem from="1523708775131" duration="7005000" />
+      <workItem from="1524277880906" duration="47000" />
+      <workItem from="1524277996915" duration="2002000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ListaTest - 2018.04.14 at 11h 46m 40s.xml">
-      <configuration name="ListaTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ListaTest - 2018.04.14 at 12h 08m 39s.xml">
-      <configuration name="ListaTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="ListaTest - 2018.04.14 at 12h 13m 22s.xml">
       <configuration name="ListaTest" configurationId="JUnit" />
     </history-entry>
@@ -613,16 +609,22 @@
     <history-entry file="ListaTest - 2018.04.14 at 12h 30m 06s.xml">
       <configuration name="ListaTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="ListaTest - 2018.04.20 at 23h 38m 33s.xml">
+      <configuration name="ListaTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ListaTest - 2018.04.20 at 23h 42m 53s.xml">
+      <configuration name="ListaTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9170000" />
+    <option name="totallyTimeSpent" value="11219000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980132" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980132" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -663,29 +665,21 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/Principal.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Lista.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="2" column="8" lean-forward="false" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Nodo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-132">
-          <caret line="11" column="22" lean-forward="true" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#275#276#0" expanded="true" />
-            <element signature="e#302#303#0" expanded="true" />
+            <element signature="method#pop#0;class#Lista#0" expanded="false" />
+            <element signature="method#inserta#0;class#Lista#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/ListaTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="329">
-          <caret line="81" column="38" lean-forward="true" selection-start-line="81" selection-start-column="38" selection-end-line="81" selection-end-column="38" />
+        <state relative-caret-position="1386">
+          <caret line="81" column="38" lean-forward="false" selection-start-line="81" selection-start-column="38" selection-end-line="81" selection-end-column="38" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#AnexaPrimerNodo#0;class#ListaTest#0" expanded="false" />
@@ -701,13 +695,75 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Lista.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="348">
-          <caret line="86" column="23" lean-forward="false" selection-start-line="86" selection-start-column="23" selection-end-line="86" selection-end-column="23" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="method#pop#0;class#Lista#0" expanded="false" />
             <element signature="method#inserta#0;class#Lista#0" expanded="false" />
-            <element signature="e#1366#1367#0" expanded="true" />
-            <element signature="e#1394#1395#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ListaTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1386">
+          <caret line="81" column="38" lean-forward="true" selection-start-line="81" selection-start-column="38" selection-end-line="81" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#AnexaPrimerNodo#0;class#ListaTest#0" expanded="false" />
+            <element signature="method#AnexarDosNodos#0;class#ListaTest#0" expanded="false" />
+            <element signature="method#EliminarUnNodoConUnNodo#0;class#ListaTest#0" expanded="false" />
+            <element signature="method#EliminarUnNodoListaVacia#0;class#ListaTest#0" expanded="false" />
+            <element signature="method#EliminaPrimerNodoConDosNodos#0;class#ListaTest#0" expanded="false" />
+            <element signature="method#ValidaAnexaUnNodoConUltimoValor#0;class#ListaTest#0" expanded="false" />
+            <element signature="method#ValidaAnexaDosNodosConUltimoValor#0;class#ListaTest#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Principal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="2" column="8" lean-forward="false" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Nodo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-132">
+          <caret line="11" column="22" lean-forward="true" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
+          <folding>
+            <element signature="e#275#276#0" expanded="false" />
+            <element signature="e#302#303#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ListaTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="249">
+          <caret line="115" column="42" lean-forward="false" selection-start-line="115" selection-start-column="42" selection-end-line="115" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#AnexaPrimerNodo#0;class#ListaTest#0" expanded="false" />
+            <element signature="method#AnexarDosNodos#0;class#ListaTest#0" expanded="false" />
+            <element signature="method#EliminarUnNodoConUnNodo#0;class#ListaTest#0" expanded="false" />
+            <element signature="method#EliminarUnNodoListaVacia#0;class#ListaTest#0" expanded="false" />
+            <element signature="method#EliminaPrimerNodoConDosNodos#0;class#ListaTest#0" expanded="false" />
+            <element signature="method#ValidaAnexaUnNodoConUltimoValor#0;class#ListaTest#0" expanded="false" />
+            <element signature="method#ValidaAnexaDosNodosConUltimoValor#0;class#ListaTest#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Lista.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-81">
+          <caret line="88" column="34" lean-forward="true" selection-start-line="88" selection-start-column="34" selection-end-line="88" selection-end-column="34" />
+          <folding>
+            <element signature="method#pop#0;class#Lista#0" expanded="false" />
+            <element signature="method#inserta#0;class#Lista#0" expanded="false" />
           </folding>
         </state>
       </provider>

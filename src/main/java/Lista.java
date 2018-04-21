@@ -79,6 +79,22 @@ public class Lista {
         return retorno;
     }
 
+    public int getValor(int posicion) throws Exception {
+        if (posicion <0 || posicion> this.largo){
+            throw new Exception("Valor invalido para la posicion");
+        }
+
+        int retorno = 0;
+        int contador = 0;
+        Nodo puntero = this.primero;
+        while(contador< posicion-1){
+            contador++;
+            puntero = puntero.getSiguiente();
+        }
+        retorno = puntero.getDato();
+        return retorno;
+    }
+
 
     //consultar n elemento
     //intercambiar posiciones

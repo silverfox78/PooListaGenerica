@@ -106,4 +106,13 @@ public class ListaTest {
 
     @Test
     public void EliminaSegundoNodoListaTresNodos(){}
+
+    @Test
+    public void ConsultaPrimerValorNodo(){
+        Nodo nodo1 = new Nodo(2, null);
+        Lista lista = new Lista();
+        lista.push(nodo1);
+        int esperado = 2;
+        assertEquals(esperado, lista.getValor(1));
+    }
 }
